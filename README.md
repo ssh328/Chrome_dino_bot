@@ -1,5 +1,5 @@
 # Chrome_dino_bot
-<img width="616" alt="dino_example" src="https://github.com/user-attachments/assets/bbadbe7b-21db-4f1e-8cad-e54d8e407b4f" />
+![Dino_image](https://github.com/user-attachments/assets/5f56405b-57ab-43ec-a654-83a5366af5cf)
 
 ## 💻실행 방법
 1. **chrome://dino/** 실행 (다크모드 지원 X)
