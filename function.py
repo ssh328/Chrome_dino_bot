@@ -9,7 +9,7 @@ class Object:
         self.img = img
         self.width = img.shape[1]  # 이미지 너비
         self.height = img.shape[0]  # 이미지 높이
-        self.location = None  # 템플릿 매칭된 위치 저장용
+        self.location = None  # 매칭된 위치 저장용
 
     def match(self, scr):
         # 템플릿 매칭 수행
@@ -31,6 +31,6 @@ class Object:
 
 def grabScreen(bbox=None):
     img = ImageGrab.grab(bbox=bbox)  # 화면 영역 캡처
-    img = numpy.array(img)  # PIL 이미지 → NumPy 배열로 변환
-    img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)  # 색상 포맷 변환 (RGB → BGR)
+    img = numpy.array(img)  # PIL 이미지 -> NumPy 배열로 변환
+    img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)  # 색상 포맷 변환 (RGB -> BGR)
     return img
